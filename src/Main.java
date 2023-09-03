@@ -10,8 +10,8 @@ public class Main {
         Rectangle rectangle = new Rectangle("Прямокутник");
         Triangle triangle = new Triangle("Трикутник");
 
-        GetShapeName getShapeName = new GetShapeName();
 
+        GetShapeName getShapeName = new GetShapeName();
         System.out.println("Circle name: "+ getShapeName.getName(circle));
         System.out.println("Oval name: "+ getShapeName.getName(oval));
         System.out.println("Square name: "+ getShapeName.getName(square));
